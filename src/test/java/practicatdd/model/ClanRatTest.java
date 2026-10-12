@@ -1,6 +1,7 @@
 package practicatdd.model;
 
 import org.junit.jupiter.api.*;
+import practicatdd.exceptions.InvalidClanRatException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
