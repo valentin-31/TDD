@@ -17,7 +17,7 @@ public class SettlementTest {
 
         assertEquals("Ciudad de prueba", asentamiento.getName());
         assertEquals(4, asentamiento.getLevel());
-        assertEquals(true, asentamiento.isCapital());
+        assertTrue(asentamiento.isCapital());
     }
 
     @Test
@@ -30,7 +30,7 @@ public class SettlementTest {
 
         assertEquals("Ciudad de prueba", asentamiento.getName());
         assertEquals(2, asentamiento.getLevel());
-        assertEquals(false, asentamiento.isCapital());
+        assertFalse(asentamiento.isCapital());
     }
 
 
@@ -67,7 +67,7 @@ public class SettlementTest {
 
         assertEquals("Ciudad arrasada", asentamiento.getName());
         assertEquals(0, asentamiento.getLevel());
-        assertEquals(true, asentamiento.isCapital());
+        assertTrue(asentamiento.isCapital());
     }
 
     @Test
